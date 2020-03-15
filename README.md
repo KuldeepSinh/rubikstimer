@@ -1,1 +1,1 @@
-# rubikstimer
+# A Timer written in Haskell
