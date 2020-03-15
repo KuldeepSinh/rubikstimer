@@ -4,15 +4,15 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 465e0b77a540733f6d2229e48efaa498400bd7dfc3e0ca3832274b9f21b407d2
+-- hash: c0ddb188d648365251723f68ed7bc6e32d1343da54d95f449e731ae7ea44bfb2
 
 name:           rubikstimer
 version:        0.1.0.0
 description:    Please see the README on GitHub at <https://github.com/KuldeepSinh/rubikstimer#readme>
-homepage:       https://github.com/githubuser/rubikstimer#readme
-bug-reports:    https://github.com/githubuser/rubikstimer/issues
+homepage:       https://github.com/KuldeepSinh/timer#readme
+bug-reports:    https://github.com/KuldeepSinh/timer/issues
 author:         KuldeepSinh
-maintainer:     example@example.com
+maintainer:     KuldeepSinh
 copyright:      2020 KuldeepSinh
 license:        BSD3
 license-file:   LICENSE
@@ -23,7 +23,7 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/githubuser/rubikstimer
+  location: https://github.com/KuldeepSinh/rubikstimer
 
 library
   exposed-modules:
