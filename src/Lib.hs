@@ -6,7 +6,6 @@ module Lib
 import Control.Exception
 import System.Clock
 
-
 showTimeElapsed :: IO ()
 showTimeElapsed = 
   do
