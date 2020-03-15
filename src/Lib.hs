@@ -16,7 +16,7 @@ showTimeElapsed =
     putStrLn "Press Enter key to stop the timer"
     getLine
     stop <- getTime Monotonic
-    let nanoSecs = toNanoSecs (diffTimeSpec stop start)
     let diff = diffTimeSpec stop start
-    putStrLn $ show nanoSecs ++ " (nano seconds)"
-    putStrLn $ show (sec diff) ++ " (seconds)"
+    putStrLn $ show (sec diff) ++ " seconds and " ++  show (nsec diff) ++ " nano seconds."
+    let nanoSecs = toNanoSecs diff
+    putStrLn $ show nanoSecs ++ " (total nano seconds)."
