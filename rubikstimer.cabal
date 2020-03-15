@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f3da7bf63c2d97634c86a412d7a137df0734330917b6c2f3e8e101bcf032c28b
+-- hash: 465e0b77a540733f6d2229e48efaa498400bd7dfc3e0ca3832274b9f21b407d2
 
 name:           rubikstimer
 version:        0.1.0.0
@@ -14,7 +14,7 @@ bug-reports:    https://github.com/githubuser/rubikstimer/issues
 author:         KuldeepSinh
 maintainer:     example@example.com
 copyright:      2020 KuldeepSinh
-license:        Apache2
+license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
 extra-source-files:

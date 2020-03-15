@@ -1,7 +1,7 @@
 name:                rubikstimer
 version:             0.1.0.0
 github:              "githubuser/rubikstimer"
-license:             Apache2
+license:             BSD3
 author:              "KuldeepSinh"
 maintainer:          "example@example.com"
 copyright:           "2020 KuldeepSinh"
