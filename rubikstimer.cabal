@@ -1,0 +1,65 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: f3da7bf63c2d97634c86a412d7a137df0734330917b6c2f3e8e101bcf032c28b
+
+name:           rubikstimer
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/KuldeepSinh/rubikstimer#readme>
+homepage:       https://github.com/githubuser/rubikstimer#readme
+bug-reports:    https://github.com/githubuser/rubikstimer/issues
+author:         KuldeepSinh
+maintainer:     example@example.com
+copyright:      2020 KuldeepSinh
+license:        Apache2
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/rubikstimer
+
+library
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_rubikstimer
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , clock
+  default-language: Haskell2010
+
+executable rubikstimer-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_rubikstimer
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , clock
+    , rubikstimer
+  default-language: Haskell2010
+
+test-suite rubikstimer-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_rubikstimer
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , clock
+    , rubikstimer
+  default-language: Haskell2010
