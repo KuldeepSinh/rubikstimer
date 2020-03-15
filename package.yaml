@@ -1,9 +1,9 @@
 name:                rubikstimer
 version:             0.1.0.0
-github:              "githubuser/rubikstimer"
+github:              "KuldeepSinh/timer"
 license:             BSD3
 author:              "KuldeepSinh"
-maintainer:          "example@example.com"
+maintainer:          "KuldeepSinh"
 copyright:           "2020 KuldeepSinh"
 
 extra-source-files:
